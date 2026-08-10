@@ -814,7 +814,7 @@ function finishGame() {
     stage.classList.add("firework-scene");
     mario.classList.remove("walking");
     roomTitle.textContent = "Pháo hoa chiến thắng";
-    question.textContent = "Kết luận: Trong xã hội số, giai cấp vẫn tồn tại khi còn khác biệt về quyền sở hữu, kiểm soát tư liệu sản xuất, dữ liệu, nền tảng và tri thức.";
+    question.textContent = "Cảm ơn mọi người đã nhiệt tình tham gia trò chơi! Qua đó, chúng ta đã cùng ôn lại những giai đoạn và sự kiện chính trong quá trình hình thành tư tưởng Hồ Chí Minh.";
     feedback.textContent = "Nhóm đã vượt qua 5 phòng và hoàn thành nội dung activity.";
   }, 4200);
 
