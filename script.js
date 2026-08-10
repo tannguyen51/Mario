@@ -138,137 +138,137 @@ const oldRooms = [
 
 const rooms = [
   {
-    title: "Ph?ng 1",
+    title: "Phòng 1",
     questions: [
       {
-        text: "Giai ?o?n n?o H? Ch? Minh h?nh th?nh t? t??ng y?u n??c v? ch? h??ng c?u n??c?",
+        text: "Giai đoạn nào Hồ Chí Minh hình thành tư tưởng yêu nước và chí hướng cứu nước?",
         answers: [
           "1911-1920",
           "1920-1930",
-          "Tr??c 1911",
-          "T? n?m 1941 ??n n?m 1969"
+          "Trước 1911",
+          "Từ năm 1941 đến năm 1969"
         ],
         correct: 2,
-        explain: "Tr??c n?m 1911, H? Ch? Minh ?? h?nh th?nh t? t??ng y?u n??c v? ch? h??ng c?u n??c t? truy?n th?ng gia ??nh, qu? h??ng v? d?n t?c."
+        explain: "Trước năm 1911, Hồ Chí Minh đã hình thành tư tưởng yêu nước và chí hướng cứu nước từ truyền thống gia đình, quê hương và dân tộc."
       },
       {
-        text: "N?m n?o Nguy?n T?t Th?nh ra ?i t?m ???ng c?u n??c?",
+        text: "Năm nào Nguyễn Tất Thành ra đi tìm đường cứu nước?",
         answers: [
           "1911",
           "1920",
-          "N?m 1930",
-          "N?m 1941 khi Ng??i tr? v? n??c"
+          "Năm 1930",
+          "Năm 1941 khi Người trở về nước"
         ],
         correct: 0,
-        explain: "Ng?y 5/6/1911, Nguy?n T?t Th?nh ra ?i t?m ???ng c?u n??c t? B?n Nh? R?ng."
+        explain: "Ngày 5/6/1911, Nguyễn Tất Thành ra đi tìm đường cứu nước từ Bến Nhà Rồng."
       }
     ]
   },
   {
-    title: "Ph?ng 2",
+    title: "Phòng 2",
     questions: [
       {
-        text: "S? ki?n n?o ???c xem l? b??c ngo?t quan tr?ng gi?p Nguy?n ?i Qu?c t?m th?y con ???ng c?u n??c ??ng ??n?",
+        text: "Sự kiện nào được xem là bước ngoặt quan trọng giúp Nguyễn Ái Quốc tìm thấy con đường cứu nước đúng đắn?",
         answers: [
-          "Th?nh l?p ??ng C?ng s?n Vi?t Nam",
-          "Tr? v? Vi?t Nam tr?c ti?p l?nh ??o c?ch m?ng",
-          "Th?ng l?i c?a C?ch m?ng th?ng T?m n?m 1945",
-          "??c Lu?n c??ng c?a L?nin"
+          "Thành lập Đảng Cộng sản Việt Nam",
+          "Trở về Việt Nam trực tiếp lãnh đạo cách mạng",
+          "Thắng lợi của Cách mạng tháng Tám năm 1945",
+          "Đọc Luận cương của Lênin"
         ],
         correct: 3,
-        explain: "Vi?c ??c Lu?n c??ng c?a L?nin gi?p Nguy?n ?i Qu?c t?m th?y con ???ng gi?i ph?ng d?n t?c theo c?ch m?ng v? s?n."
+        explain: "Việc đọc Luận cương của Lênin giúp Nguyễn Ái Quốc tìm thấy con đường giải phóng dân tộc theo cách mạng vô sản."
       },
       {
-        text: "Y?u t? l? lu?n n?o quy?t ??nh b?n ch?t khoa h?c v? c?ch m?ng c?a t? t??ng H? Ch? Minh?",
+        text: "Yếu tố lý luận nào quyết định bản chất khoa học và cách mạng của tư tưởng Hồ Chí Minh?",
         answers: [
-          "Tinh hoa v?n h?a c?a c?c qu?c gia ph??ng T?y",
-          "Nh?ng gi? tr? truy?n th?ng t?t ??p c?a d?n t?c Vi?t Nam",
-          "Ch? ngh?a M?c-L?nin",
-          "C?c t? t??ng ti?n b? c?a v?n h?a ph??ng ??ng v? ph??ng T?y"
+          "Tinh hoa văn hóa của các quốc gia phương Tây",
+          "Những giá trị truyền thống tốt đẹp của dân tộc Việt Nam",
+          "Chủ nghĩa Mác-Lênin",
+          "Các tư tưởng tiến bộ của văn hóa phương Đông và phương Tây"
         ],
         correct: 2,
-        explain: "Ch? ngh?a M?c-L?nin l? c? s? l? lu?n quy?t ??nh b?n ch?t khoa h?c v? c?ch m?ng c?a t? t??ng H? Ch? Minh."
+        explain: "Chủ nghĩa Mác-Lênin là cơ sở lý luận quyết định bản chất khoa học và cách mạng của tư tưởng Hồ Chí Minh."
       }
     ]
   },
   {
-    title: "Ph?ng 3",
+    title: "Phòng 3",
     questions: [
       {
-        text: "V? sao th?i k? 1911-1920 ???c xem l? th?i k? c? ? ngh?a b??c ngo?t trong qu? tr?nh h?nh th?nh t? t??ng H? Ch? Minh?",
+        text: "Vì sao thời kỳ 1911-1920 được xem là thời kỳ có ý nghĩa bước ngoặt trong quá trình hình thành tư tưởng Hồ Chí Minh?",
         answers: [
-          "V? ??y l? th?i k? H? Ch? Minh tr?c ti?p l?nh ??o nh?n d?n ti?n h?nh C?ch m?ng th?ng T?m.",
-          "V? trong giai ?o?n n?y, H? Ch? Minh ?? ho?n thi?n to?n b? h? th?ng quan ?i?m v? x?y d?ng ch? ngh?a x? h?i t?i Vi?t Nam.",
-          "V? ??y l? qu? tr?nh Ng??i kh?o nghi?m nhi?u con ???ng c?u n??c, ti?p c?n ch? ngh?a M?c-L?nin v? chuy?n t? l?p tr??ng c?a m?t ng??i y?u n??c sang l?p tr??ng c?a ng??i c?ng s?n.",
-          "V? ??y l? th?i k? Vi?t Nam ?? gi?nh ???c ??c l?p v? b?t ??u ti?n h?nh x?y d?ng m?t nh? n??c m?i."
+          "Vì đây là thời kỳ Hồ Chí Minh trực tiếp lãnh đạo nhân dân tiến hành Cách mạng tháng Tám.",
+          "Vì trong giai đoạn này, Hồ Chí Minh đã hoàn thiện toàn bộ hệ thống quan điểm về xây dựng chủ nghĩa xã hội tại Việt Nam.",
+          "Vì đây là quá trình Người khảo nghiệm nhiều con đường cứu nước, tiếp cận chủ nghĩa Mác-Lênin và chuyển từ lập trường của một người yêu nước sang lập trường của người cộng sản.",
+          "Vì đây là thời kỳ Việt Nam đã giành được độc lập và bắt đầu tiến hành xây dựng một nhà nước mới."
         ],
         correct: 2,
-        explain: "Giai ?o?n 1911-1920 ??nh d?u s? chuy?n bi?n t? ch? ngh?a y?u n??c ??n l?p tr??ng c?ng s?n, m? ra con ???ng c?u n??c ??ng ??n."
+        explain: "Giai đoạn 1911-1920 đánh dấu sự chuyển biến từ chủ nghĩa yêu nước đến lập trường cộng sản, mở ra con đường cứu nước đúng đắn."
       },
       {
-        text: "? ngh?a quan tr?ng nh?t c?a vi?c Nguy?n ?i Qu?c ??c S? th?o Lu?n c??ng c?a L?nin n?m 1920 l? g??",
+        text: "Ý nghĩa quan trọng nhất của việc Nguyễn Ái Quốc đọc Sơ thảo Luận cương của Lênin năm 1920 là gì?",
         answers: [
-          "Gi?p Ng??i hi?u r? h?n v? l?ch s? c?c cu?c c?ch m?ng t? s?n ?? di?n ra t?i ch?u ?u.",
-          "Gi?p Nguy?n ?i Qu?c x?c ??nh r?ng nhi?m v? tr??c m?t ch? c?n t?p trung v?o ??u tranh kinh t? c?a c?ng nh?n.",
-          "Gi?p Ng??i nh?n th?c r? s? ph?t tri?n c?a ch? ngh?a t? b?n t?i c?c n??c ph??ng T?y ???ng th?i.",
-          "Gi?p Nguy?n ?i Qu?c t?m th?y l?i gi?i cho v?n ?? gi?i ph?ng d?n t?c, x?c ??nh con ???ng c?ch m?ng v? s?n l? con ???ng ph? h?p ?? ??u tranh gi?nh ??c l?p cho d?n t?c Vi?t Nam."
+          "Giúp Người hiểu rõ hơn về lịch sử các cuộc cách mạng tư sản đã diễn ra tại châu Âu.",
+          "Giúp Nguyễn Ái Quốc xác định rằng nhiệm vụ trước mắt chỉ cần tập trung vào đấu tranh kinh tế của công nhân.",
+          "Giúp Người nhận thức rõ sự phát triển của chủ nghĩa tư bản tại các nước phương Tây đương thời.",
+          "Giúp Nguyễn Ái Quốc tìm thấy lời giải cho vấn đề giải phóng dân tộc, xác định con đường cách mạng vô sản là con đường phù hợp để đấu tranh giành độc lập cho dân tộc Việt Nam."
         ],
         correct: 3,
-        explain: "S? th?o Lu?n c??ng c?a L?nin gi?p Nguy?n ?i Qu?c t?m th?y con ???ng c?ch m?ng v? s?n cho s? nghi?p gi?i ph?ng d?n t?c Vi?t Nam."
+        explain: "Sơ thảo Luận cương của Lênin giúp Nguyễn Ái Quốc tìm thấy con đường cách mạng vô sản cho sự nghiệp giải phóng dân tộc Việt Nam."
       }
     ]
   },
   {
-    title: "Ph?ng 4",
+    title: "Phòng 4",
     questions: [
       {
-        text: "Trong giai ?o?n 1920-1930, n?i dung n?o sau ??y ???c h?nh th?nh c? b?n trong t? t??ng H? Ch? Minh?",
+        text: "Trong giai đoạn 1920-1930, nội dung nào sau đây được hình thành cơ bản trong tư tưởng Hồ Chí Minh?",
         answers: [
-          "??u tranh gi?nh ??c l?p b?ng con ???ng c?i c?ch ?n h?a v? d?a v?o c?c n??c t? b?n ph?t tri?n.",
-          "C?ch m?ng gi?i ph?ng d?n t?c mu?n th?ng l?i ph?i ?i theo con ???ng c?ch m?ng v? s?n.",
-          "Ch? giai c?p c?ng nh?n m?i ???c tham gia v?o qu? tr?nh ??u tranh gi?nh l?i ??c l?p d?n t?c.",
-          "Vi?t Nam c?n ti?n h?nh c?ch m?ng t? s?n tr??c r?i m?i xem x?t ??n v?n ?? ??c l?p d?n t?c."
+          "Đấu tranh giành độc lập bằng con đường cải cách ôn hòa và dựa vào các nước tư bản phát triển.",
+          "Cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng vô sản.",
+          "Chỉ giai cấp công nhân mới được tham gia vào quá trình đấu tranh giành lại độc lập dân tộc.",
+          "Việt Nam cần tiến hành cách mạng tư sản trước rồi mới xem xét đến vấn đề độc lập dân tộc."
         ],
         correct: 1,
-        explain: "Trong giai ?o?n 1920-1930, t? t??ng v? con ???ng c?ch m?ng v? s?n cho gi?i ph?ng d?n t?c ???c h?nh th?nh c? b?n."
+        explain: "Trong giai đoạn 1920-1930, tư tưởng về con đường cách mạng vô sản cho giải phóng dân tộc được hình thành cơ bản."
       },
       {
-        text: "?i?m n?i b?t trong c?ch H? Ch? Minh ti?p thu ch? ngh?a M?c-L?nin l? g??",
+        text: "Điểm nổi bật trong cách Hồ Chí Minh tiếp thu chủ nghĩa Mác-Lênin là gì?",
         answers: [
-          "Ti?p thu to?n b? l? lu?n v? ?p d?ng gi?ng ho?n to?n m? h?nh c?a c?ch m?ng Nga.",
-          "Ch? l?a ch?n nh?ng n?i dung li?n quan tr?c ti?p ??n ??u tranh c?a giai c?p c?ng nh?n.",
-          "B? qua c?c y?u t? truy?n th?ng d?n t?c ?? t?p trung ho?n to?n v?o l? lu?n c?ch m?ng ph??ng T?y.",
-          "Ti?p thu c? ch?n l?c v? v?n d?ng s?ng t?o v?o ?i?u ki?n th?c ti?n c? th? c?a c?ch m?ng Vi?t Nam."
+          "Tiếp thu toàn bộ lý luận và áp dụng giống hoàn toàn mô hình của cách mạng Nga.",
+          "Chỉ lựa chọn những nội dung liên quan trực tiếp đến đấu tranh của giai cấp công nhân.",
+          "Bỏ qua các yếu tố truyền thống dân tộc để tập trung hoàn toàn vào lý luận cách mạng phương Tây.",
+          "Tiếp thu có chọn lọc và vận dụng sáng tạo vào điều kiện thực tiễn cụ thể của cách mạng Việt Nam."
         ],
         correct: 3,
-        explain: "H? Ch? Minh ti?p thu ch? ngh?a M?c-L?nin m?t c?ch ch?n l?c, s?ng t?o v? g?n v?i th?c ti?n Vi?t Nam."
+        explain: "Hồ Chí Minh tiếp thu chủ nghĩa Mác-Lênin một cách chọn lọc, sáng tạo và gắn với thực tiễn Việt Nam."
       }
     ]
   },
   {
-    title: "Ph?ng 5",
+    title: "Phòng 5",
     questions: [
       {
-        text: "T?i ??i h?i Tua th?ng 12/1920, Nguy?n ?i Qu?c t?n th?nh t? ch?c qu?c t? n?o?",
+        text: "Tại Đại hội Tua tháng 12/1920, Nguyễn Ái Quốc tán thành tổ chức quốc tế nào?",
         answers: [
-          "Qu?c t? th? hai",
-          "H?i Qu?c Li?n",
-          "Qu?c t? III",
-          "Li?n minh c?c d?n t?c thu?c ??a"
+          "Quốc tế thứ hai",
+          "Hội Quốc Liên",
+          "Quốc tế III",
+          "Liên minh các dân tộc thuộc địa"
         ],
         correct: 2,
-        explain: "T?i ??i h?i Tua th?ng 12/1920, Nguy?n ?i Qu?c t?n th?nh Qu?c t? III v? tham gia s?ng l?p ??ng C?ng s?n Ph?p."
+        explain: "Tại Đại hội Tua tháng 12/1920, Nguyễn Ái Quốc tán thành Quốc tế III và tham gia sáng lập Đảng Cộng sản Pháp."
       },
       {
-        text: "Theo t? t??ng H? Ch? Minh, ??c l?p d?n t?c ph?i g?n li?n v?i ?i?u g??",
+        text: "Theo tư tưởng Hồ Chí Minh, độc lập dân tộc phải gắn liền với điều gì?",
         answers: [
-          "Ph?t tri?n t? b?n",
-          "C?ng nghi?p h?a ??t n??c",
-          "H?i nh?p v?i c?c n??c ph??ng T?y",
-          "Ch? ngh?a x? h?i"
+          "Phát triển tư bản",
+          "Công nghiệp hóa đất nước",
+          "Hội nhập với các nước phương Tây",
+          "Chủ nghĩa xã hội"
         ],
         correct: 3,
-        explain: "Theo t? t??ng H? Ch? Minh, ??c l?p d?n t?c ph?i g?n li?n v?i ch? ngh?a x? h?i."
+        explain: "Theo tư tưởng Hồ Chí Minh, độc lập dân tộc phải gắn liền với chủ nghĩa xã hội."
       }
     ]
   }
