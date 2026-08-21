@@ -64,7 +64,7 @@
           "4 chế độ sở hữu (toàn dân, tập thể, tư nhân, hỗn hợp)",
           "5 chế độ sở hữu"
         ],
-        correct: 3,
+        correct: 1,
         explain: "bạn trả lời đúng rồi!"
       },
       {
@@ -75,7 +75,7 @@
           "5 thành phần kinh tế",
           "6 thành phần kinh tế"
         ],
-        correct: 1,
+        correct: 2,
         explain: "Kết cấu bốn phần giữ nguyên khung của Cương lĩnh 1991"
       }
     ]
@@ -122,12 +122,12 @@
         explain: "bạn trả lời đúng rồi!"
       },
       {
-        text: "Kết luận phù hợp nhất cho activity của nhóm là gì?",
+        text: "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (Bổ sung, phát triển năm 2011) được kế thừa nguyên vẹn kết cấu gồm bao nhiêu phần từ Cương lĩnh 1991?",
         answers: [
-          "Giai cấp vẫn tồn tại trong xã hội số, còn đấu tranh giai cấp chuyển hóa sang cả lĩnh vực dữ liệu, công nghệ và tri thức",
-          "Công nghệ cao đã làm mọi mâu thuẫn giai cấp biến mất hoàn toàn",
-          "Chỉ người không biết dùng máy tính mới thuộc giai cấp bị trị",
-          "Bất bình đẳng số chỉ là vấn đề giải trí, không liên quan sản xuất"
+          "3 phần",
+          "4 phần",
+          "5 phần",
+          "6 phần"
         ],
         correct: 1,
         explain: "bạn trả lời đúng rồi!"
