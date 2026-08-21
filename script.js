@@ -1,4 +1,4 @@
-﻿const oldRooms = [
+﻿const rooms = [
   {
     title: "Phòng 1",
     questions: [
@@ -136,7 +136,7 @@
   }
 ];
 
-const rooms = [
+const oldRooms = [
   {
     title: "Phòng 1",
     questions: [
@@ -905,4 +905,5 @@ startButton.addEventListener("click", () => {
 
 createRooms();
 syncLeaderboard();
+
 
