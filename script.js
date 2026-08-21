@@ -1,125 +1,125 @@
-const oldRooms = [
+﻿const oldRooms = [
   {
-    title: "Phòng 1: Khái niệm giai cấp",
+    title: "Phòng 1",
     questions: [
       {
-        text: "Theo chủ nghĩa duy vật lịch sử, giai cấp được hình thành chủ yếu dựa trên cơ sở nào?",
+        text: "Đại hội đại biểu toàn quốc lần thứ X của Đảng Cộng sản Việt Nam diễn ra vào thời gian nào?",
         answers: [
-          "Vị trí khác nhau của các nhóm người trong hệ thống sản xuất xã hội",
-          "Sở thích cá nhân và phong cách tiêu dùng của từng người",
-          "Màu da, giới tính hoặc đặc điểm sinh học bẩm sinh",
-          "Mức độ nổi tiếng trên mạng xã hội"
+          "Tháng 3 năm 2005",
+          "Tháng 4 năm 2006",
+          "Tháng 5 năm 2007",
+          "Tháng 6 năm 2008"
         ],
-        correct: 0,
-        explain: "Giai cấp gắn với vị trí trong sản xuất, đặc biệt là quan hệ với tư liệu sản xuất và phân phối sản phẩm."
+        correct: 2,
+        explain: "bạn trả lời đúng rồi!"
       },
       {
-        text: "Vì sao phân chia giai cấp trong xã hội có tư hữu về tư liệu sản xuất mang tính khách quan?",
+        text: "Đại hội đại biểu toàn quốc lần thứ XI của Đảng Cộng sản Việt Nam họp vào khoảng thời gian nào?",
         answers: [
-          "Vì nó nảy sinh từ quan hệ kinh tế hiện thực, không phụ thuộc vào ý muốn riêng của cá nhân",
-          "Vì mọi người tự nguyện chọn mình thuộc giai cấp nào",
-          "Vì nhà nước chỉ cần ban hành luật là tạo ra giai cấp",
-          "Vì công nghệ cao tự động xóa mọi bất bình đẳng"
+          "Từ ngày 12 đến ngày 19-01-2011",
+          "Từ ngày 15 đến ngày 22-02-2011",
+          "Từ ngày 10 đến ngày 18-03-2011",
+          "Từ ngày 20 đến ngày 27-04-2011"
         ],
-        correct: 0,
-        explain: "Khi tư liệu sản xuất thuộc về một bộ phận xã hội, sự khác biệt lợi ích kinh tế xuất hiện một cách khách quan."
+        correct: 1,
+        explain: "bạn trả lời đúng rồi!"
       }
     ]
   },
   {
-    title: "Phòng 2: Đấu tranh giai cấp",
+    title: "Phòng 2",
     questions: [
       {
-        text: "Đấu tranh giai cấp xuất hiện khi nào?",
+        text: "Tờ báo 'Thanh niên' - cơ quan ngôn luận do Nguyễn Ái Quốc sáng lập - phát hành số đầu tiên vào ngày tháng năm nào?",
         answers: [
-          "Khi lợi ích cơ bản giữa các giai cấp đối lập không thể điều hòa trong một trật tự xã hội nhất định",
-          "Khi mọi người có quan điểm giống nhau về phân phối của cải",
-          "Khi xã hội không còn chế độ tư hữu",
-          "Khi con người ngừng lao động sản xuất"
+          "Ngày 21-6-1925",
+          "Ngày 03-2-1930",
+          "Ngày 20-10-1930",
+          "Ngày 02-9-1945"
         ],
-        correct: 0,
-        explain: "Đấu tranh giai cấp bắt nguồn từ mâu thuẫn lợi ích giữa những giai cấp có vị trí kinh tế đối lập."
+        correct: 1,
+        explain: "bạn trả lời đúng rồi!"
       },
       {
-        text: "Trong xã hội số, đấu tranh giai cấp có thể chuyển hóa thành hình thức nào?",
+        text: "Theo Cương lĩnh năm 1991, mục tiêu tổng quát phải đạt tới khi kết thúc thời kỳ quá độ lên chủ nghĩa xã hội ở nước ta là gì?",
         answers: [
-          "Đấu tranh về quyền tiếp cận dữ liệu, nền tảng, kỹ năng số và lợi ích từ công nghệ",
-          "Chỉ còn là cuộc thi xem ai dùng điện thoại đời mới hơn",
-          "Biến mất hoàn toàn vì internet làm mọi người bình đẳng tuyệt đối",
-          "Chỉ là xung đột giữa các hãng sản xuất trò chơi"
+          "Hoàn thành công nghiệp hóa, hiện đại hóa đất nước",
+          "Trở thành một nước phát triển có thu nhập cao",
+          "Xây dựng xong về cơ bản những cơ sở kinh tế của chủ nghĩa xã hội, với kiến trúc thượng tầng về chính trị và tư tưởng, văn hoá phù hợp, làm cho nước ta trở thành một nước xã hội chủ nghĩa phồn vinh.",
+          "Đưa GDP đầu người đạt mức trung bình thế giới."
         ],
-        correct: 0,
-        explain: "Hình thức có thể thay đổi, nhưng mâu thuẫn về quyền kiểm soát nguồn lực và lợi ích kinh tế vẫn tồn tại."
+        correct: 3,
+        explain: "bạn trả lời đúng rồi!"
       }
     ]
   },
   {
-    title: "Phòng 3: Xã hội số và bất bình đẳng",
+    title: "Phòng 3",
     questions: [
       {
-        text: "Khái niệm 'bất bình đẳng số' trong activity của nhóm nói đến điều gì?",
+        text: "Tại Đại hội X (2006), Đảng Cộng sản Việt Nam xác định nền kinh tế thị trường định hướng xã hội chủ nghĩa ở nước ta có mấy chế độ sở hữu?",
         answers: [
-          "Khoảng cách giữa người có khả năng truy cập, làm chủ công nghệ và người bị bỏ lại phía sau",
-          "Sự khác nhau về màu sắc giao diện máy tính",
-          "Việc người trẻ chơi game nhiều hơn người lớn tuổi",
-          "Sự cạnh tranh giữa các nhân vật trong game Mario"
+          "2 chế độ sở hữu (nhà nước, tập thể).",
+          "3 chế độ sở hữu (toàn dân, tập thể, tư nhân)",
+          "4 chế độ sở hữu (toàn dân, tập thể, tư nhân, hỗn hợp)",
+          "5 chế độ sở hữu"
         ],
-        correct: 0,
-        explain: "Bất bình đẳng số phản ánh khoảng cách về hạ tầng, kỹ năng, dữ liệu và cơ hội hưởng lợi từ công nghệ."
+        correct: 2,
+        explain: "bạn trả lời đúng rồi!"
       },
       {
-        text: "Vì sao 'tư duy làm chủ tri thức' chưa đủ để phủ nhận sự tồn tại của giai cấp?",
+        text: " Kinh tế thị trường định hướng xã hội chủ nghĩa ở nước ta bao gồm bao nhiêu thành phần kinh tế theo định hướng của Đại hội X (2006)?",
         answers: [
-          "Vì tri thức cũng chịu tác động bởi quyền sở hữu, điều kiện tiếp cận và cơ hội sử dụng công nghệ",
-          "Vì tri thức chỉ có trong sách giấy",
-          "Vì ai lên mạng cũng tự động có cùng cơ hội phát triển",
-          "Vì giai cấp chỉ là khái niệm trong quá khứ, không liên quan kinh tế"
+          "3 thành phần kinh tế",
+          "4 thành phần kinh tế",
+          "5 thành phần kinh tế",
+          "6 thành phần kinh tế"
         ],
-        correct: 0,
-        explain: "Trong xã hội số, tri thức là nguồn lực quan trọng nhưng không được phân phối ngang bằng cho mọi người."
+        correct: 2,
+        explain: "Kết cấu bốn phần giữ nguyên khung của Cương lĩnh 1991"
       }
     ]
   },
   {
-    title: "Phòng 4: Tính lịch sử và tất yếu",
+    title: "Phòng 4",
     questions: [
       {
-        text: "Nói phân chia giai cấp có tính lịch sử nghĩa là gì?",
+        text: "Theo định hướng của Đại hội X (2006), thành phần kinh tế nào giữ vai trò chủ đạo trong nền kinh tế quốc dân?",
         answers: [
-          "Giai cấp không tồn tại vĩnh viễn, mà xuất hiện và biến đổi theo những điều kiện lịch sử nhất định",
-          "Giai cấp xuất hiện do một câu chuyện cổ tích",
-          "Giai cấp là hiện tượng tự nhiên giống thời tiết",
-          "Giai cấp chỉ tồn tại trong môn Lịch sử"
+          "Kinh tế tư nhân",
+          "Kinh tế tập thể",
+          "Kinh tế nhà nước",
+          "Kinh tế có vốn đầu tư nước ngoài"
         ],
-        correct: 0,
-        explain: "Giai cấp ra đời khi sản xuất phát triển đến mức có của cải dư thừa và tư hữu về tư liệu sản xuất."
+        correct: 3,
+        explain: "bạn trả lời đúng rồi!"
       },
       {
-        text: "Trong các xã hội còn chế độ tư hữu về tư liệu sản xuất, vì sao phân chia giai cấp có tính tất yếu?",
+        text: "Đặc trưng số 1 trong các đặc trưng của xã hội xã hội chủ nghĩa mà nhân dân ta xây dựng được nêu trong Cương lĩnh 1991 là gì?",
         answers: [
-          "Vì tư hữu tạo ra sự khác biệt về quyền chiếm hữu, tổ chức sản xuất và phân phối lợi ích",
-          "Vì mọi người sinh ra đã cố định thuộc một giai cấp mãi mãi",
-          "Vì chỉ cần có mạng xã hội là tự nhiên có giai cấp",
-          "Vì nhà trường bắt buộc phải chia lớp học thành giai cấp"
+          "Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại",
+          "Các dân tộc trong nước bình đẳng, đoàn kết và giúp đỡ lẫn nhau cùng tiến bộ",
+          "Do nhân dân lao động làm chủ",
+          "Có nền văn hoá tiên tiến, đậm đà bản sắc dân tộc"
         ],
-        correct: 0,
-        explain: "Chừng nào quyền sở hữu và kiểm soát tư liệu sản xuất còn không ngang nhau, phân hóa giai cấp còn có cơ sở tồn tại."
+        correct: 3,
+        explain: "bạn trả lời đúng rồi!"
       }
     ]
   },
   {
-    title: "Phòng 5: Giai cấp và dân tộc",
+    title: "Phòng 5",
     questions: [
       {
-        text: "Mối quan hệ giữa vấn đề giai cấp và vấn đề dân tộc nên được hiểu như thế nào?",
+        text: "Theo Cương lĩnh năm 1991, nguyên tắc tổ chức và hoạt động cơ bản nào của bộ máy quản lý nhà nước được quy định?",
         answers: [
-          "Hai vấn đề có liên hệ với nhau; lợi ích dân tộc cần được nhìn trong bối cảnh lợi ích giai cấp cụ thể",
-          "Hai vấn đề hoàn toàn tách rời, không bao giờ tác động qua lại",
-          "Dân tộc chỉ là tên gọi địa lý nên không liên quan xã hội",
-          "Giai cấp luôn tự động biến mất khi nhắc đến dân tộc"
+          "Tam quyền phân lập",
+          "Tập trung dân chủ",
+          "Tự quản địa phương độc lập",
+          "Nhất nguyên hóa chính trị tuyệt đối"
         ],
-        correct: 0,
-        explain: "Trong duy vật lịch sử, dân tộc và giai cấp đều gắn với điều kiện kinh tế - xã hội và lợi ích cụ thể."
+        correct: 2,
+        explain: "bạn trả lời đúng rồi!"
       },
       {
         text: "Kết luận phù hợp nhất cho activity của nhóm là gì?",
@@ -129,8 +129,8 @@ const oldRooms = [
           "Chỉ người không biết dùng máy tính mới thuộc giai cấp bị trị",
           "Bất bình đẳng số chỉ là vấn đề giải trí, không liên quan sản xuất"
         ],
-        correct: 0,
-        explain: "Xã hội số không xóa ngay cơ sở kinh tế của giai cấp; nó làm hình thức phân tầng và đấu tranh trở nên mới hơn."
+        correct: 2,
+        explain: "bạn trả lời đúng rồi!"
       }
     ]
   }
@@ -149,7 +149,7 @@ const rooms = [
           "Từ năm 1941 đến năm 1969"
         ],
         correct: 2,
-        explain: "Trước năm 1911, Hồ Chí Minh đã hình thành tư tưởng yêu nước và chí hướng cứu nước từ truyền thống gia đình, quê hương và dân tộc."
+        explain: "bạn trả lời đúng rồi!"
       },
       {
         text: "Năm nào Nguyễn Tất Thành ra đi tìm đường cứu nước?",
@@ -160,7 +160,7 @@ const rooms = [
           "Năm 1941 khi Người trở về nước"
         ],
         correct: 0,
-        explain: "Ngày 5/6/1911, Nguyễn Tất Thành ra đi tìm đường cứu nước từ Bến Nhà Rồng."
+        explain: "bạn trả lời đúng rồi!"
       }
     ]
   },
@@ -176,7 +176,7 @@ const rooms = [
           "Đọc Luận cương của Lênin"
         ],
         correct: 3,
-        explain: "Việc đọc Luận cương của Lênin giúp Nguyễn Ái Quốc tìm thấy con đường giải phóng dân tộc theo cách mạng vô sản."
+        explain: "bạn trả lời đúng rồi!"
       },
       {
         text: "Yếu tố lý luận nào quyết định bản chất khoa học và cách mạng của tư tưởng Hồ Chí Minh?",
@@ -187,7 +187,7 @@ const rooms = [
           "Các tư tưởng tiến bộ của văn hóa phương Đông và phương Tây"
         ],
         correct: 2,
-        explain: "Chủ nghĩa Mác-Lênin là cơ sở lý luận quyết định bản chất khoa học và cách mạng của tư tưởng Hồ Chí Minh."
+        explain: "bạn trả lời đúng rồi!"
       }
     ]
   },
@@ -905,3 +905,4 @@ startButton.addEventListener("click", () => {
 
 createRooms();
 syncLeaderboard();
+
