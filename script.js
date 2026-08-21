@@ -10,7 +10,7 @@
           "Tháng 5 năm 2007",
           "Tháng 6 năm 2008"
         ],
-        correct: 2,
+        correct: 1,
         explain: "bạn trả lời đúng rồi!"
       },
       {
@@ -21,7 +21,7 @@
           "Từ ngày 10 đến ngày 18-03-2011",
           "Từ ngày 20 đến ngày 27-04-2011"
         ],
-        correct: 1,
+        correct: 0,
         explain: "bạn trả lời đúng rồi!"
       }
     ]
@@ -37,7 +37,7 @@
           "Ngày 20-10-1930",
           "Ngày 02-9-1945"
         ],
-        correct: 1,
+        correct: 0,
         explain: "bạn trả lời đúng rồi!"
       },
       {
@@ -48,7 +48,7 @@
           "Xây dựng xong về cơ bản những cơ sở kinh tế của chủ nghĩa xã hội, với kiến trúc thượng tầng về chính trị và tư tưởng, văn hoá phù hợp, làm cho nước ta trở thành một nước xã hội chủ nghĩa phồn vinh.",
           "Đưa GDP đầu người đạt mức trung bình thế giới."
         ],
-        correct: 3,
+        correct: 2,
         explain: "bạn trả lời đúng rồi!"
       }
     ]
@@ -64,7 +64,7 @@
           "4 chế độ sở hữu (toàn dân, tập thể, tư nhân, hỗn hợp)",
           "5 chế độ sở hữu"
         ],
-        correct: 2,
+        correct: 3,
         explain: "bạn trả lời đúng rồi!"
       },
       {
@@ -75,7 +75,7 @@
           "5 thành phần kinh tế",
           "6 thành phần kinh tế"
         ],
-        correct: 2,
+        correct: 1,
         explain: "Kết cấu bốn phần giữ nguyên khung của Cương lĩnh 1991"
       }
     ]
@@ -91,7 +91,7 @@
           "Kinh tế nhà nước",
           "Kinh tế có vốn đầu tư nước ngoài"
         ],
-        correct: 3,
+        correct: 2,
         explain: "bạn trả lời đúng rồi!"
       },
       {
@@ -102,7 +102,7 @@
           "Do nhân dân lao động làm chủ",
           "Có nền văn hoá tiên tiến, đậm đà bản sắc dân tộc"
         ],
-        correct: 3,
+        correct: 2,
         explain: "bạn trả lời đúng rồi!"
       }
     ]
@@ -118,7 +118,7 @@
           "Tự quản địa phương độc lập",
           "Nhất nguyên hóa chính trị tuyệt đối"
         ],
-        correct: 2,
+        correct: 1,
         explain: "bạn trả lời đúng rồi!"
       },
       {
@@ -129,146 +129,8 @@
           "Chỉ người không biết dùng máy tính mới thuộc giai cấp bị trị",
           "Bất bình đẳng số chỉ là vấn đề giải trí, không liên quan sản xuất"
         ],
-        correct: 2,
-        explain: "bạn trả lời đúng rồi!"
-      }
-    ]
-  }
-];
-
-const oldRooms = [
-  {
-    title: "Phòng 1",
-    questions: [
-      {
-        text: "Giai đoạn nào Hồ Chí Minh hình thành tư tưởng yêu nước và chí hướng cứu nước?",
-        answers: [
-          "1911-1920",
-          "1920-1930",
-          "Trước 1911",
-          "Từ năm 1941 đến năm 1969"
-        ],
-        correct: 2,
-        explain: "bạn trả lời đúng rồi!"
-      },
-      {
-        text: "Năm nào Nguyễn Tất Thành ra đi tìm đường cứu nước?",
-        answers: [
-          "1911",
-          "1920",
-          "Năm 1930",
-          "Năm 1941 khi Người trở về nước"
-        ],
-        correct: 0,
-        explain: "bạn trả lời đúng rồi!"
-      }
-    ]
-  },
-  {
-    title: "Phòng 2",
-    questions: [
-      {
-        text: "Sự kiện nào được xem là bước ngoặt quan trọng giúp Nguyễn Ái Quốc tìm thấy con đường cứu nước đúng đắn?",
-        answers: [
-          "Thành lập Đảng Cộng sản Việt Nam",
-          "Trở về Việt Nam trực tiếp lãnh đạo cách mạng",
-          "Thắng lợi của Cách mạng tháng Tám năm 1945",
-          "Đọc Luận cương của Lênin"
-        ],
-        correct: 3,
-        explain: "bạn trả lời đúng rồi!"
-      },
-      {
-        text: "Yếu tố lý luận nào quyết định bản chất khoa học và cách mạng của tư tưởng Hồ Chí Minh?",
-        answers: [
-          "Tinh hoa văn hóa của các quốc gia phương Tây",
-          "Những giá trị truyền thống tốt đẹp của dân tộc Việt Nam",
-          "Chủ nghĩa Mác-Lênin",
-          "Các tư tưởng tiến bộ của văn hóa phương Đông và phương Tây"
-        ],
-        correct: 2,
-        explain: "bạn trả lời đúng rồi!"
-      }
-    ]
-  },
-  {
-    title: "Phòng 3",
-    questions: [
-      {
-        text: "Vì sao thời kỳ 1911-1920 được xem là thời kỳ có ý nghĩa bước ngoặt trong quá trình hình thành tư tưởng Hồ Chí Minh?",
-        answers: [
-          "Vì đây là thời kỳ Hồ Chí Minh trực tiếp lãnh đạo nhân dân tiến hành Cách mạng tháng Tám.",
-          "Vì trong giai đoạn này, Hồ Chí Minh đã hoàn thiện toàn bộ hệ thống quan điểm về xây dựng chủ nghĩa xã hội tại Việt Nam.",
-          "Vì đây là quá trình Người khảo nghiệm nhiều con đường cứu nước, tiếp cận chủ nghĩa Mác-Lênin và chuyển từ lập trường của một người yêu nước sang lập trường của người cộng sản.",
-          "Vì đây là thời kỳ Việt Nam đã giành được độc lập và bắt đầu tiến hành xây dựng một nhà nước mới."
-        ],
-        correct: 2,
-        explain: "Giai đoạn 1911-1920 đánh dấu sự chuyển biến từ chủ nghĩa yêu nước đến lập trường cộng sản, mở ra con đường cứu nước đúng đắn."
-      },
-      {
-        text: "Ý nghĩa quan trọng nhất của việc Nguyễn Ái Quốc đọc Sơ thảo Luận cương của Lênin năm 1920 là gì?",
-        answers: [
-          "Giúp Người hiểu rõ hơn về lịch sử các cuộc cách mạng tư sản đã diễn ra tại châu Âu.",
-          "Giúp Nguyễn Ái Quốc xác định rằng nhiệm vụ trước mắt chỉ cần tập trung vào đấu tranh kinh tế của công nhân.",
-          "Giúp Người nhận thức rõ sự phát triển của chủ nghĩa tư bản tại các nước phương Tây đương thời.",
-          "Giúp Nguyễn Ái Quốc tìm thấy lời giải cho vấn đề giải phóng dân tộc, xác định con đường cách mạng vô sản là con đường phù hợp để đấu tranh giành độc lập cho dân tộc Việt Nam."
-        ],
-        correct: 3,
-        explain: "Sơ thảo Luận cương của Lênin giúp Nguyễn Ái Quốc tìm thấy con đường cách mạng vô sản cho sự nghiệp giải phóng dân tộc Việt Nam."
-      }
-    ]
-  },
-  {
-    title: "Phòng 4",
-    questions: [
-      {
-        text: "Trong giai đoạn 1920-1930, nội dung nào sau đây được hình thành cơ bản trong tư tưởng Hồ Chí Minh?",
-        answers: [
-          "Đấu tranh giành độc lập bằng con đường cải cách ôn hòa và dựa vào các nước tư bản phát triển.",
-          "Cách mạng giải phóng dân tộc muốn thắng lợi phải đi theo con đường cách mạng vô sản.",
-          "Chỉ giai cấp công nhân mới được tham gia vào quá trình đấu tranh giành lại độc lập dân tộc.",
-          "Việt Nam cần tiến hành cách mạng tư sản trước rồi mới xem xét đến vấn đề độc lập dân tộc."
-        ],
         correct: 1,
-        explain: "Trong giai đoạn 1920-1930, tư tưởng về con đường cách mạng vô sản cho giải phóng dân tộc được hình thành cơ bản."
-      },
-      {
-        text: "Điểm nổi bật trong cách Hồ Chí Minh tiếp thu chủ nghĩa Mác-Lênin là gì?",
-        answers: [
-          "Tiếp thu toàn bộ lý luận và áp dụng giống hoàn toàn mô hình của cách mạng Nga.",
-          "Chỉ lựa chọn những nội dung liên quan trực tiếp đến đấu tranh của giai cấp công nhân.",
-          "Bỏ qua các yếu tố truyền thống dân tộc để tập trung hoàn toàn vào lý luận cách mạng phương Tây.",
-          "Tiếp thu có chọn lọc và vận dụng sáng tạo vào điều kiện thực tiễn cụ thể của cách mạng Việt Nam."
-        ],
-        correct: 3,
-        explain: "Hồ Chí Minh tiếp thu chủ nghĩa Mác-Lênin một cách chọn lọc, sáng tạo và gắn với thực tiễn Việt Nam."
-      }
-    ]
-  },
-  {
-    title: "Phòng 5",
-    questions: [
-      {
-        text: "Tại Đại hội Tua tháng 12/1920, Nguyễn Ái Quốc tán thành tổ chức quốc tế nào?",
-        answers: [
-          "Quốc tế thứ hai",
-          "Hội Quốc Liên",
-          "Quốc tế III",
-          "Liên minh các dân tộc thuộc địa"
-        ],
-        correct: 2,
-        explain: "Tại Đại hội Tua tháng 12/1920, Nguyễn Ái Quốc tán thành Quốc tế III và tham gia sáng lập Đảng Cộng sản Pháp."
-      },
-      {
-        text: "Theo tư tưởng Hồ Chí Minh, độc lập dân tộc phải gắn liền với điều gì?",
-        answers: [
-          "Phát triển tư bản",
-          "Công nghiệp hóa đất nước",
-          "Hội nhập với các nước phương Tây",
-          "Chủ nghĩa xã hội"
-        ],
-        correct: 3,
-        explain: "Theo tư tưởng Hồ Chí Minh, độc lập dân tộc phải gắn liền với chủ nghĩa xã hội."
+        explain: "bạn trả lời đúng rồi!"
       }
     ]
   }
