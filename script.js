@@ -3,25 +3,25 @@
     title: "Phòng 1",
     questions: [
       {
-        text: "Đại hội đại biểu toàn quốc lần thứ X của Đảng Cộng sản Việt Nam diễn ra vào thời gian nào?",
+        text: "Để phản ánh thời kỳ cải biến cách mạng từ chủ nghĩa tư bản lên chủ nghĩa xã hội, các nhà kinh điển của chủ nghĩa Mác -Lênin đã sử dụng phạm trù nào dưới đây?",
         answers: [
-          "Tháng 3 năm 2005",
-          "Tháng 4 năm 2006",
-          "Tháng 5 năm 2007",
-          "Tháng 6 năm 2008"
+          "Thời kỳ cách mạng",
+          "Thời kỳ quá độ",
+          "Thời kỳ phát triển hòa bình",
+          "Thời kỳ chuyên chính vô sản"
         ],
         correct: 1,
         explain: "bạn trả lời đúng rồi!"
       },
       {
-        text: "Đại hội đại biểu toàn quốc lần thứ XI của Đảng Cộng sản Việt Nam họp vào khoảng thời gian nào?",
+        text: "Một nước chưa trải qua giai đoạn phát triển tư bản chủ nghĩa, quá độ lên chủ nghĩa xã hội, sẽ được phản ánh qua khái niệm nào dưới đây?",
         answers: [
-          "Từ ngày 12 đến ngày 19-01-2011",
-          "Từ ngày 15 đến ngày 22-02-2011",
-          "Từ ngày 10 đến ngày 18-03-2011",
-          "Từ ngày 20 đến ngày 27-04-2011"
+          "Quá độ trực tiếp",
+          "Quá độ gián tiếp",
+          "Quá độ từng phần",
+          "Tất cả A, B, C"
         ],
-        correct: 0,
+        correct: 1,
         explain: "bạn trả lời đúng rồi!"
       }
     ]
@@ -30,25 +30,25 @@
     title: "Phòng 2",
     questions: [
       {
-        text: "Tờ báo 'Thanh niên' - cơ quan ngôn luận do Nguyễn Ái Quốc sáng lập - phát hành số đầu tiên vào ngày tháng năm nào?",
+        text: "Trong quá trình xây dựng chủ nghĩa xã hội, công cụ quan trọng nhất để bảo vệ lợi ích của giai cấp công nhân, nhân dân lao động; thực hiện cải tạo xã hội cũ, xây dựng xã hội mới; trấn áp kẻ thù của nhân dân là công cụ nào?",
         answers: [
-          "Ngày 21-6-1925",
-          "Ngày 03-2-1930",
-          "Ngày 20-10-1930",
-          "Ngày 02-9-1945"
+          "Nhà nước xã hội chủ nghĩa",
+          "Tổ chức công đoàn của công nhân",
+          "Quân đội nhân dân",
+          "Cảnh sát nhân dân"
         ],
         correct: 0,
         explain: "bạn trả lời đúng rồi!"
       },
       {
-        text: "Theo Cương lĩnh năm 1991, mục tiêu tổng quát phải đạt tới khi kết thúc thời kỳ quá độ lên chủ nghĩa xã hội ở nước ta là gì?",
+        text: "Từ chủ nghĩa tư bản phát triển quá độ lên chủ nghĩa xã hội thuộc kiểu quá độ nào?",
         answers: [
-          "Hoàn thành công nghiệp hóa, hiện đại hóa đất nước",
-          "Trở thành một nước phát triển có thu nhập cao",
-          "Xây dựng xong về cơ bản những cơ sở kinh tế của chủ nghĩa xã hội, với kiến trúc thượng tầng về chính trị và tư tưởng, văn hoá phù hợp, làm cho nước ta trở thành một nước xã hội chủ nghĩa phồn vinh.",
-          "Đưa GDP đầu người đạt mức trung bình thế giới."
+          "Quá độ trực tiếp",
+          "Quá độ gián tiếp",
+          "Quá độ đặc biệt",
+          "Quá độ bỏ qua"
         ],
-        correct: 2,
+        correct: 0,
         explain: "bạn trả lời đúng rồi!"
       }
     ]
@@ -57,26 +57,26 @@
     title: "Phòng 3",
     questions: [
       {
-        text: "Tại Đại hội X (2006), Đảng Cộng sản Việt Nam xác định nền kinh tế thị trường định hướng xã hội chủ nghĩa ở nước ta có mấy chế độ sở hữu?",
+        text: "Quá độ lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa là bỏ qua yếu tố nào của chủ nghĩa tư bản?",
         answers: [
-          "2 chế độ sở hữu (nhà nước, tập thể).",
-          "3 chế độ sở hữu (toàn dân, tập thể, tư nhân)",
-          "4 chế độ sở hữu (toàn dân, tập thể, tư nhân, hỗn hợp)",
-          "5 chế độ sở hữu"
+          "Bỏ qua lực lượng sản xuất của chủ nghĩa tư bản",
+          "Bỏ thành tựu quản lý của chủ nghĩa tư bản",
+          "Bỏ qua việc xác lập vị trí thống trị của quan hệ sản xuất và kiến trúc thượng tầng tư bản chủ nghĩa",
+          "Bỏ qua thành tựu khoa học, công nghệ của chủ nghĩa tư bản"
         ],
-        correct: 1,
+        correct: 2,
         explain: "bạn trả lời đúng rồi!"
       },
       {
-        text: " Kinh tế thị trường định hướng xã hội chủ nghĩa ở nước ta bao gồm bao nhiêu thành phần kinh tế theo định hướng của Đại hội X (2006)?",
+        text: "Thời kỳ quá độ lên chủ nghĩa xã hội thường bắt đầu từ lúc nào?",
         answers: [
-          "3 thành phần kinh tế",
-          "4 thành phần kinh tế",
-          "5 thành phần kinh tế",
-          "6 thành phần kinh tế"
+          "Sau khi thành lập được chính đảng của giai cấp công nhân",
+          "Sau khi giành được chính quyền về tay giai cấp công nhân và nhân dân lao động",
+          "Sau khi xây dựng thành công chủ nghĩa xã hội",
+          "Sau khi kết thúc chiến tranh"
         ],
-        correct: 2,
-        explain: "Kết cấu bốn phần giữ nguyên khung của Cương lĩnh 1991"
+        correct: 1,
+        explain: "bạn trả lời đúng rồi!"
       }
     ]
   },
@@ -84,25 +84,25 @@
     title: "Phòng 4",
     questions: [
       {
-        text: "Theo định hướng của Đại hội X (2006), thành phần kinh tế nào giữ vai trò chủ đạo trong nền kinh tế quốc dân?",
+        text: "Theo V.I. Lênin, thời kỳ quá độ lên chủ nghĩa xã hội ở nước Nga sẽ có các thành phần kinh tế nào?",
         answers: [
-          "Kinh tế tư nhân",
-          "Kinh tế tập thể",
-          "Kinh tế nhà nước",
-          "Kinh tế có vốn đầu tư nước ngoài"
+          "Kinh tế gia trưởng; kinh tế hàng hóa nhỏ; kinh tế tư bản; kinh tế tư bản nhà nước; kinh tế xã hội chủ nghĩa",
+          "Kinh tế nhà nước; kinh tế tập thể; kinh tế tư nhân tư bản; kinh tế tư nhân cá thể; kinh tế có vốn đầu tư nước ngoài",
+          "Kinh tế nhà nước và kinh tế tập thể",
+          "Kinh tế nhà nước; kinh tế tập thể; kinh tế tư nhân"
         ],
-        correct: 2,
+        correct: 0,
         explain: "bạn trả lời đúng rồi!"
       },
       {
-        text: "Đặc trưng số 1 trong các đặc trưng của xã hội xã hội chủ nghĩa mà nhân dân ta xây dựng được nêu trong Cương lĩnh 1991 là gì?",
+        text: "Thời kỳ quá độ lên chủ nghĩa xã hội có còn tồn tại đấu tranh giai cấp hay không?",
         answers: [
-          "Có nền kinh tế phát triển cao dựa trên lực lượng sản xuất hiện đại",
-          "Các dân tộc trong nước bình đẳng, đoàn kết và giúp đỡ lẫn nhau cùng tiến bộ",
-          "Do nhân dân lao động làm chủ",
-          "Có nền văn hoá tiên tiến, đậm đà bản sắc dân tộc"
+          "Có",
+          "Không",
+          "Vừa có vừa không",
+          "Chưa thể biết được"
         ],
-        correct: 2,
+        correct: 0,
         explain: "bạn trả lời đúng rồi!"
       }
     ]
@@ -111,25 +111,25 @@
     title: "Phòng 5",
     questions: [
       {
-        text: "Theo Cương lĩnh năm 1991, nguyên tắc tổ chức và hoạt động cơ bản nào của bộ máy quản lý nhà nước được quy định?",
+        text: "Chức năng của nhà nước trong thời kỳ quá độ lên chủ nghĩa xã hội là gì?",
         answers: [
-          "Tam quyền phân lập",
-          "Tập trung dân chủ",
-          "Tự quản địa phương độc lập",
-          "Nhất nguyên hóa chính trị tuyệt đối"
+          "Tổ chức, quản lý xã hội",
+          "Trấn áp giai cấp phản động",
+          "Đối nội, đối ngoại",
+          "Tất cả A, B, C"
         ],
-        correct: 1,
+        correct: 3,
         explain: "bạn trả lời đúng rồi!"
       },
       {
-        text: "Cương lĩnh xây dựng đất nước trong thời kỳ quá độ lên chủ nghĩa xã hội (Bổ sung, phát triển năm 2011) được kế thừa nguyên vẹn kết cấu gồm bao nhiêu phần từ Cương lĩnh 1991?",
+        text: "Quan hệ giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội diễn ra như thế nào?",
         answers: [
-          "3 phần",
-          "4 phần",
-          "5 phần",
-          "6 phần"
+          "Vừa hợp tác, vừa đấu tranh",
+          "Hoàn toàn xóa bỏ quan hệ người bóc lột người",
+          "Giai cấp đã bị xóa bỏ",
+          "Tất cả đều đúng"
         ],
-        correct: 1,
+        correct: 0,
         explain: "bạn trả lời đúng rồi!"
       }
     ]
