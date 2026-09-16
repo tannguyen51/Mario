@@ -190,10 +190,55 @@ const endRankBody = document.getElementById("endRankBody");
 const LEADERBOARD_KEY = "marioPrincessLeaderboard";
 const LEADERBOARD_API = "/api/leaderboard";
 const LOCAL_ADMIN_RESET_CODE = "admin";
+const bgMusic = document.getElementById("bgMusic");
+const musicToggle = document.getElementById("musicToggle");
+const MUSIC_KEY = "marioMusicEnabled";
 let gameStarted = false;
 let currentPlayer = "";
 let runStartTime = 0;
 let scoreSaved = false;
+
+function isMusicEnabled() {
+  try {
+    return localStorage.getItem(MUSIC_KEY) !== "off";
+  } catch {
+    return true;
+  }
+}
+
+function updateMusicButton() {
+  musicToggle.textContent = isMusicEnabled() ? "🎵" : "🔇";
+  musicToggle.classList.toggle("muted", !isMusicEnabled());
+}
+
+function tryPlayMusic() {
+  if (!isMusicEnabled()) return;
+  bgMusic.play().catch(() => {});
+}
+
+function stopMusic() {
+  bgMusic.pause();
+}
+
+function initMusic() {
+  bgMusic.volume = 0.35;
+  bgMusic.loop = true;
+  updateMusicButton();
+  tryPlayMusic();
+}
+
+musicToggle.addEventListener("click", () => {
+  const willPlay = bgMusic.paused;
+  if (willPlay) {
+    tryPlayMusic();
+  } else {
+    bgMusic.pause();
+  }
+  try {
+    localStorage.setItem(MUSIC_KEY, willPlay ? "on" : "off");
+  } catch {}
+  updateMusicButton();
+});
 
 function createRooms() {
   rooms.forEach((_, index) => {
@@ -693,6 +738,7 @@ function resetGame() {
     scoreSaved = false;
     startRunTimer();
   }
+  tryPlayMusic();
   state.room = 0;
   state.question = 0;
   state.lives = 5;
@@ -760,6 +806,7 @@ startButton.addEventListener("click", () => {
   runStartTime = Date.now();
   scoreSaved = false;
   startRunTimer();
+  tryPlayMusic();
   endRankPanel.classList.add("hidden");
   document.body.classList.remove("home-active");
   startRoomEntry(0);
@@ -767,5 +814,6 @@ startButton.addEventListener("click", () => {
 
 createRooms();
 syncLeaderboard();
+initMusic();
 
 
